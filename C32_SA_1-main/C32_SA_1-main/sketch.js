@@ -124,7 +124,7 @@ function setup()
   blower.position(10,250);
   blower.size(150,100);
   blower.mouseClicked(airBlow);
-  bunny = createSprite(400,canH-80,100,100);
+  bunny = createSprite(170,canH-80,100,100);
   bunny.scale = 0.2;
 
   bunny.addAnimation('blinking',blink);
